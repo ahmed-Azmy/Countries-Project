@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project One | details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+<body>
+
+    <!--=======================Navbar=========================-->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-content">
+          <p class="title">Where in the world?</p>
+          <a class="light-mode" id="lightDarkMode"><i class="far fa-moon"></i> Dark Mode</a>
+        </div>
+    </nav>
+    <!--======================main conten==========================-->
+    <div class="container">
+        <button id="backBtn" class="detailsInfo"><i class="fas fa-long-arrow-alt-left"></i>Back</button>
+        <div class="details">
+            <div class="img">
+                <img src="" id="detailsImg">
+            </div>
+            <div>
+               <h2 id="detailsTitle" class="detailsInfo">Egypt</h2>
+               <div class="info">
+                   <div>
+                       <h5 class="detailsInfo">Native Name: <span id="nativeName"></span></h5>
+                       <h5 class="detailsInfo">Population: <span id="Population"></span></h5>
+                       <h5 class="detailsInfo">Region: <span id="Region"></span></h5>
+                       <h5 class="detailsInfo">Sub Region: <span id="subRegion"></span></h5>
+                       <h5 class="detailsInfo">Capital: <span id="Capital"></span></h5>
+                   </div>
+                   <div>
+                       <h5 class="detailsInfo">Top Level Domain: <span id="topLevelDomain"></span></h5>
+                       <h5 class="detailsInfo">Currencies: <span id="Currencies"></span></h5>
+                       <h5 class="detailsInfo">Languages: <span id="Languages"></span></h5>
+                   </div>
+               </div>
+               <div class="BorderCountries">
+                   <h5 class="detailsInfo">Border Countries:</h5>
+                    <div id="borders">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+        
+    <!--=======================Navbar=========================-->
+    <nav class="navbar" id="navbar">
+      <div class="container navbar-content">
+        <p class="title">Where in the world?</p>
+        <a class="light-mode" id="lightDarkMode"><i class="far fa-moon"></i> Dark Mode</a>
+      </div>
+    </nav>
+    <!--======================main conten==========================-->
+    <section class="main-content" id="main-content">
+      <!--Seatch & filter-->
+      <div class="container search-filter" id="search-filter">
+        <div class="search">
+          <i class="fas fa-search icon-search"></i>
+          <input type="search" placeholder="Search for a country" id="searchInput">
+        </div>
+        <div class="filter" id="filter">
+          <ul>
+            <li id="filterBtn"><a class="filterBarag">Filter by Region</a><i class="fas fa-chevron-down" id="filterIcon"></i></li>
+            <ul class="dropdown" id="dropdown">
+              <li><a>Africa</a></li>
+              <li><a>Americas</a></li>
+              <li><a>Asia</a></li>
+              <li><a>Europe</a></li>
+              <li><a>Oceania</a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <!--Main content-->
+      <div class="container content" id="content">
+         
+      </div>
+    </section>
+
+
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
